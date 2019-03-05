@@ -4,8 +4,7 @@ https://arxiv.org/abs/1903.00985
 
 Classifiers label data as belonging to one of a set of groups based on input features. It is challenging to obtain accurate classification performance when the feature distributions in the different classes are complex, with nonlinear, overlapping and intersecting supports. This is particularly true when training data are limited. To address this problem, this article proposes a new type of classifier based on obtaining a local approximation to the support of the data within each class in a neighborhood of the feature to be classified, and assigning the feature to the class having the closest support. This general algorithm is referred to as LOcal Manifold Approximation (LOMA) classification. As a simple and theoretically supported special case having excellent performance in a broad variety of examples, we use spheres for local approximation, obtaining a SPherical Approximation (SPA) classifier. We illustrate substantial gains for SPA over competitors on a variety of challenging simulated and real data examples.
 
-## Code Documentation 
-SPA classifier
+## SPA classifier: Code Documentation 
 
 As a realization of LOcal Manifold Approximation (LOMA) classifier,
 SPherical Approximation (SPA) classifier is designed for classification when the feature in different classes have complex, nonlinear, overlapping and intersecting support, especially when the training data are limited.  
